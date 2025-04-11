@@ -12,17 +12,21 @@ h1{
 }
 
 nav{
+    list-style: none;
+    
     color: rgb(161, 139, 139);
     margin-top: 40PX;
     display: flex;
     justify-content: space-evenly;
 }
-header{
-}
+
+
+
 a{
+    text-decoration: none;
     color: rgb(240, 207, 207);
 }
-section{
+.motiv {
     background-image: url("pexels-photo-2116469.jpeg");
     background-size: cover;
     padding-block: 150px;
