@@ -23,4 +23,11 @@ a{
 section{
     background-image: url("pexels-photo-2116469.jpeg");
     background-size: cover;
+    padding-block: 150px;
+
+}
+h2{
+    font-size: 2rem;
+    translate: 50px ;
+    transform: translateY(-50px);
 }
