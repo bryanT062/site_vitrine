@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+h1{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: rgba(210, 186, 186, 0.806);
+}
+
+nav{
+    color: rgb(161, 139, 139);
+    margin-top: 40PX;
+    display: flex;
+    justify-content: space-evenly;
+}
+header{
+    background-color:black
+}
+a{
+    color: rgb(240, 207, 207);
+}
+section{
+    background-image: url("pexels-photo-2116469.jpeg");
+    background-size: cover;
+}
