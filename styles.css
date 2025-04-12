@@ -38,5 +38,12 @@ h2{
     font-size: 2rem;
     translate: 50px ;
     transform: translateY(-50px);
-    
+}
+time {
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-size: 25px;
 }
