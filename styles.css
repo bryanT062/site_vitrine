@@ -2,48 +2,44 @@
     margin: 0;
 }
 body{
-    background-color: rgb(45, 37, 7);
+    background-color: rgba(179, 197, 236, 0.24);
 }
 h1{
-    padding-top: 15px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
-    color: rgba(210, 186, 186, 0.806);
+    color: rgba(255, 255, 255, 0.952);
+    background-color: black;
+    box-shadow: 0px -17px 20px 0px rgb(255, 2, 2);
+}
+.logo{
+    
+    height: 80px;
+    width: 80px;
 }
 
 nav{
+    
+    padding: 20px;
     list-style: none;
-    
-    color: rgb(161, 139, 139);
-    margin-top: 40PX;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-
-a{
-    text-decoration: none;
-    color: rgb(240, 207, 207);
-}
-.motiv {
-    background-image: url("pexels-photo-2116469.jpeg");
-    background-size: cover;
-    padding-block: 150px;
-    
-
-}
-h2{
-    color: rgb(30, 24, 24);
-    font-size: 2rem;
-    translate: 50px ;
-    transform: translateY(-50px);
-}
-time {
-    color: white;
     font-size: 20px;
+    display: flex;
+    justify-content: sflex;
+    font-style: italic;
+    background-color: black;
+    
 }
-p{
-    color: white;
-    font-size: 25px;
+a{
+  color: white; 
+  margin-left: 25px;
+  text-decoration: none; 
+    
+}
+.img{
+    display: flex;
+    
+}
+img {
+    width: 33.3333%;
+
 }
