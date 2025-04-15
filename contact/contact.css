@@ -1,36 +1,26 @@
 * {
     margin: 0;
 }
-body{
-    background-color: rgb(45, 37, 7);
-}
-h1{
-    padding-top: 15px;
-    display: flex;
-    justify-content: center;
-    color: rgba(210, 186, 186, 0.806);
-}
+
 
 nav{
-    list-style: none;
     
-    color: rgb(161, 139, 139);
-    margin-top: 40PX;
-    display: flex;
-    justify-content: space-evenly;
-}
-.sidebar {
-    width: 60px;
-    height: 200px;
-    background-color: blue;
     padding: 20px;
-    box-sizing: border-box;
-    color: #fff;
-    overflow: hidden;
-    border-radius: 5px 0 0 5px;
-    transition: width .75s ease;
+    list-style: none;
+    font-size: 13px;
+    display: flex;
+    font-style: italic;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    position:static;
+    
+    
 }
-.container {
-    block-size: 120px;
+
+a{
+    color: white; 
+    margin-left: 25px;
+    text-decoration: none; 
     
 }
