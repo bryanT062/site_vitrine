@@ -71,3 +71,28 @@ footer {
     background-color: black;
     color: white;
 }
+@media (min-width:600px) {
+  a{
+    font-size: 25px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  hr{
+    display: none;
+  }
+  h2{
+    font-size: 35px;
+    text-align: center;
+    
+  }
+  section{
+    display: grid;
+    column-count: 1;
+    text-align: center;
+  }
+  ul{
+    font-size: 20px;
+    list-style: none;
+  }
+}
