@@ -64,3 +64,12 @@ H2{
     text-shadow: -50px -50px 2px #9d8c8c30;
     
 }
+@media (min-width:600px) {
+    nav{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 80px;
+    }
+
+}
