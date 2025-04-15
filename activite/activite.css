@@ -1,0 +1,34 @@
+* {
+    margin:0;
+}
+nav{
+    
+    padding: 20px;
+    list-style: none;
+    font-size: 11px;
+    display: flex;
+    font-style: italic;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    position:static;
+    
+    
+}
+
+a{
+    color: white; 
+    margin-left: 25px;
+    text-decoration: none; 
+    
+}
+h1{
+    font-size: 50px;
+    display: flex;
+        font-family: "Chau Philomene One", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.952);
+    padding: 25px;
+}

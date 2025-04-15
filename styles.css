@@ -1,15 +1,13 @@
 * {
     margin: 0;
 }
-body{
-    background-color: rgba(179, 197, 236, 0.24);
-}
+
 
 nav{
     
     padding: 20px;
     list-style: none;
-    font-size: 20px;
+    font-size: 13px;
     display: flex;
     font-style: italic;
     background-color: black;
@@ -28,11 +26,13 @@ a{
 }
 h1{
     font-size: 50px;
-    display: flex;
+    text-align: center;
+    width: 100%;
         font-family: "Chau Philomene One", sans-serif;
         font-weight: 400;
         font-style: italic;
     justify-content: center;
+
     color: rgba(255, 255, 255, 0.952);
     background-color: black;
     padding: 25px;
@@ -55,7 +55,7 @@ img {
 H2{
 
     color: rgb(244, 244, 244);
-    font-size: 80px;
+    font-size: 22px;
     word-spacing: 10px;
         font-family: "Chau Philomene One", sans-serif;
         font-weight: 400;
