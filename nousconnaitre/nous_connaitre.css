@@ -1,54 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif; 
     margin: 0;
+}
+nav{
+    
     padding: 20px;
-    color: #333;
-    background-color: #f8f9fa;
-  }
-  
-  header, section, footer {
-    margin-bottom: 40px;
-    padding: 0 10px;
-  }
-  
-  h1, h2, h3 {
-    color: #2c3e50;
-    margin-top: 0;
-  }
-  
-  ul {
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    font-style: italic;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    position:static;
+}
+a{
+    color: white; 
+    margin-left: 25px;
+    text-decoration: none; 
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 20px;
+    padding: 25px 20px;
+    background-color:beige
+}
+h2 {
+    justify-content: center;
+}
+
+ul {
     list-style-type: disc;
     padding-left: 20px;
-  }
-  
-  blockquote {
+}
+
+blockquote {
     font-style: italic;
     color: #555;
     border-left: 4px solid #ccc;
     padding-left: 15px;
     margin-left: 0;
-  }
-  
-  footer {
-    font-size: 0.95em;
+}
+
+h1{
+    margin: 0;
+       font-size: 50px;
+       display: flex;
+           font-family: "Chau Philomene One", sans-serif;
+           font-weight: 400;
+           font-style: italic;
+       justify-content: center;
+       color: rgba(255, 255, 255, 0.952);
+       background-color: black;
+       padding: 25px;
+       box-shadow: 0px -17px 20px 0px rgba(206, 12, 12, 0.462);
+   }
+   
+footer {
+    font-size: 18px;
     text-align: center;
-    padding-bottom: 30px;
-  }
-  
-  
-  @media (min-width: 600px) {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+@media (min-width: 600px) {
     body {
-      padding: 30px 60px;
+        padding: 30px 60px;
     }
   
     header, section, footer {
       max-width: 800px;
       margin: 0 auto 40px auto;
-    }
-  
-    h1 {
-      font-size: 2em;
     }
   
     h2 {
