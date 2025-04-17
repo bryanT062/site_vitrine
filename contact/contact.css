@@ -43,6 +43,7 @@ form div{
     margin-bottom: 15px;
 }
 input{
+    color: white;
     width: 100%;
     padding: 10px;
     border-radius: 20px;
@@ -88,7 +89,7 @@ article p{
     margin-top: 30px;
 }
 article{
-    color: rgb(218, 182, 182);
+    color: rgb(244, 241, 241);
     
     width: 80%;
     padding: 10px;
@@ -191,7 +192,7 @@ article p{
     margin-top: 30px;
 }
 article{
-    color: rgb(218, 182, 182);
+    
     
     width: 80%;
     padding: 20px;
