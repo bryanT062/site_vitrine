@@ -1,28 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   background-color: rgb(80, 141, 126);
+    width: 100%;
+   
+   
 }
 h1{
+    font-size: 40px;
+    color: white;
     display: flex;
     justify-content: center;
     font-style:oblique;
     width: 100%;
     padding: 10px 0px;
+    text-shadow: 1px 1px 2px red;
+}
+section{
+    background-image: url(../pexels-photo-1044302.jpeg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   justify-content: center;
+   
+}
+.a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
 }
 form{
     
+    color: white;
     background-color: transparent;
-    backdrop-filter: blur(40px);
-    padding: 30px;
-    width: 420px;
+    backdrop-filter: blur(8px);
+    padding: 40px;
     border-radius: 20px;
+    margin-bottom: 30px;
 
 
 }
@@ -32,10 +47,9 @@ form h2{
     color: white;
     margin-bottom: 20px;
 }
-div{
+form div{
     font-size: 25px;
     width: 100%;
-    position: relative;
     margin-bottom: 25px;
 }
 input{
@@ -71,4 +85,28 @@ input::placeholder{
 .button p {
     color: white;
     font-size: 14px;
+}
+article h3{
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+}
+article p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 30px;
+}
+article{
+    color: white;
+    
+    width: 80%;
+    padding: 20px;
+    
+}
+.divfooter {
+
+    margin: 0;
+    
+    
 }
