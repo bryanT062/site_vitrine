@@ -62,7 +62,7 @@ footer {
     background-color: black;
     color: white;
 }
-@media (min-width:600px) {
+@media (max-width:7690px) {
   a{
     font-size: 25px;
   }

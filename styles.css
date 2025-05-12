@@ -76,7 +76,7 @@ footer{
         font-size: 12px;
     }
 }
-@media (min-width:769px) {
+@media (max-width:769px) {
     nav{
         font-size: 28px;
     }
