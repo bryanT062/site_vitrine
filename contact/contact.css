@@ -100,7 +100,7 @@ article{
     
     
 }
-@media (max-width:800px){
+@media (min-width:769px){
     
 body{
     width: 100%;
